@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "272460912315",
+    "project_id": "cito-notification",
+    "storage_bucket": "cito-notification.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272460912315:android:256769c2260fdef5f03b9e",
+        "android_client_info": {
+          "package_name": "com.example.tekki_web_solution_assignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUeCN3Qjl8G3ygzv8S-BMEwiN7BJ4cM4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
