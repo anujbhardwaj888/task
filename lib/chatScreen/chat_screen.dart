@@ -177,7 +177,7 @@ class _ChatScreenState extends State<ChatScreen> {
         .collection('Messages');
 
     return Scaffold(
-      backgroundColor: Colors.orange,
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text("Chat App"),
       ),
@@ -222,6 +222,7 @@ class _ChatScreenState extends State<ChatScreen> {
           Container(
             decoration: BoxDecoration(color: Colors.white, boxShadow: [
               BoxShadow(
+                // ignore: deprecated_member_use
                 color: Colors.black.withOpacity(0.2),
                 spreadRadius: 2,
                 blurRadius: 2,
@@ -258,13 +259,10 @@ class _ChatScreenState extends State<ChatScreen> {
                             color: Theme.of(context).scaffoldBackgroundColor,
                           )),
                     ),
-                    prefixIcon: Container(
-                        padding: const EdgeInsets.all(10),
-                        child: const Icon(Icons.attach_file_outlined)),
                     focusedBorder: InputBorder.none,
                     enabledBorder: InputBorder.none,
                     errorBorder: InputBorder.none,
-                    contentPadding: const EdgeInsets.only(top: 10),
+                    contentPadding: const EdgeInsets.only(top: 10, left: 20),
                     hintText: "write message",
                     hintStyle: const TextStyle(
                         color: Colors.grey,
@@ -290,7 +288,7 @@ class _ChatScreenState extends State<ChatScreen> {
     return Align(
       alignment: Alignment.centerLeft,
       child: Container(
-        width: 50,
+        width: MediaQuery.of(context).size.width * 0.7,
         padding: EdgeInsets.all(
           8,
         ),
@@ -311,19 +309,11 @@ class _ChatScreenState extends State<ChatScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Row(
-              children: [
-                Text("Reciver name"),
-                SizedBox(
-                  width: 2,
-                ),
-                Text("Date"),
-              ],
-            ),
+            Text(document.get('receiver_name')),
             SizedBox(
               height: 2,
             ),
-            Text("message"),
+            Text(document.get('message')),
           ],
         ),
       ),
@@ -336,7 +326,7 @@ class _ChatScreenState extends State<ChatScreen> {
     return Align(
       alignment: Alignment.centerRight,
       child: Container(
-        width: 30,
+        width: MediaQuery.of(context).size.width * 0.7,
         padding: EdgeInsets.all(
           8,
         ),
@@ -352,19 +342,11 @@ class _ChatScreenState extends State<ChatScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Row(
-              children: [
-                Text("Sender name"),
-                SizedBox(
-                  width: 4,
-                ),
-                Text("Date"),
-              ],
-            ),
+            Text(document.get('sender_name')),
             SizedBox(
               height: 4,
             ),
-            Text("Message"),
+            Text(document.get('message')),
           ],
         ),
       ),

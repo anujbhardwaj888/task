@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "480443094802",
+    "firebase_url": "https://notification-392f9-default-rtdb.firebaseio.com",
     "project_id": "notification-392f9",
     "storage_bucket": "notification-392f9.firebasestorage.app"
   },
@@ -12,7 +13,12 @@
           "package_name": "com.example.notification"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "480443094802-0675isoe6rhmn7m21954i4qp724iva8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB_FbYXT3QMJXTnBDkkironNQ_1qqRRIRU"
@@ -20,7 +26,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480443094802-0675isoe6rhmn7m21954i4qp724iva8r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "480443094802-7bpddogs4b87i7k4lshd57fns9l2nchu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tekkiWebSolutionAssignment"
+              }
+            }
+          ]
         }
       }
     },
@@ -31,7 +49,12 @@
           "package_name": "com.example.tekki_web_solution_assignment"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "480443094802-0675isoe6rhmn7m21954i4qp724iva8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB_FbYXT3QMJXTnBDkkironNQ_1qqRRIRU"
@@ -39,7 +62,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480443094802-0675isoe6rhmn7m21954i4qp724iva8r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "480443094802-7bpddogs4b87i7k4lshd57fns9l2nchu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tekkiWebSolutionAssignment"
+              }
+            }
+          ]
         }
       }
     }
