@@ -1,13 +1,32 @@
 {
   "project_info": {
-    "project_number": "272460912315",
-    "project_id": "cito-notification",
-    "storage_bucket": "cito-notification.firebasestorage.app"
+    "project_number": "480443094802",
+    "project_id": "notification-392f9",
+    "storage_bucket": "notification-392f9.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:272460912315:android:256769c2260fdef5f03b9e",
+        "mobilesdk_app_id": "1:480443094802:android:ff428627aa1238d72fc5cb",
+        "android_client_info": {
+          "package_name": "com.example.notification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_FbYXT3QMJXTnBDkkironNQ_1qqRRIRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480443094802:android:75db9a0884132b622fc5cb",
         "android_client_info": {
           "package_name": "com.example.tekki_web_solution_assignment"
         }
@@ -15,7 +34,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAUeCN3Qjl8G3ygzv8S-BMEwiN7BJ4cM4M"
+          "current_key": "AIzaSyB_FbYXT3QMJXTnBDkkironNQ_1qqRRIRU"
         }
       ],
       "services": {
